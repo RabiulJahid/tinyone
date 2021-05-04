@@ -1,0 +1,151 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+  /*HEADER START*/
+  img.logo {
+    width: 88%;
+}
+
+div.Menu ul li a{
+	text-align: right;
+    padding: 0 0px !important;
+    }
+
+div.Menu ul li a:hover{
+  color: white !important;
+   border: none
+}
+    /*HEADER END*/
+    /*slider*/
+   section.slider {
+    background-color: #fcdb00;
+    padding-bottom: 80px;
+  }
+
+    /*INDICATOR*/
+    .amar .active {
+    opacity: 1;
+    margin-bottom: 21px;
+  }
+  .amar [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+    /*CAROSOUL INNER*/
+    div.s_text {
+    margin-top: 10px;
+  }
+    div.s_text h1{
+    margin-bottom: 10px;
+    font-size: 28px;
+   
+         }
+     div.s_text h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+}
+iv.s_text p {
+    margin-bottom: 20px;
+    font-size: 17px;
+    word-spacing: 1px;
+    line-height: 24px;
+
+   }
+
+
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  /*HEADER START*/
+  img.logo {
+    width: 88%;
+}
+
+div.Menu ul li a{
+	text-align: right;
+    padding: 0 0px !important;
+    }
+
+ div.Menu ul li a:hover{
+  color: white !important;
+   border: none
+   }
+    /*HEADER END*/
+    /*INDICATOR*/
+     .amar .active {
+    opacity: 1;
+    margin-bottom: 20px;
+  }
+  .amar [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+    /*CAROSOUL INNER*/
+    div.s_text {
+    margin-top: 10px;
+  }
+    div.s_text h1{
+    margin-bottom: 15px;
+    font-size: 30px;
+   
+         }
+     div.s_text h3 {
+    margin-bottom: 10px;
+    word-spacing: 1px;
+    letter-spacing: 0px;
+}
+div.s_text p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    word-spacing: 1px;
+    line-height: 24px;
+    }
+    ul.s_icon li i {
+    font-size: 35px;
+    margin-right: 15 px;
+    }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  /*HEADER START*/
+
+div.Menu ul li a{
+	text-align: right;
+    padding: 0 30px !important;
+
+    }
+
+div.Menu ul li a:hover{
+  color: white !important;
+  border: none;
+    }
+    /*HEADER END*/
+    /*ITEM*/
+    div.s_text {
+    margin-top: 50px;
+ 
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ 
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+ 
+} 
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
